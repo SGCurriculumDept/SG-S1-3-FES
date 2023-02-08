@@ -1,0 +1,154 @@
+<!DOCTYPE>
+<html lang="th">  
+<head>
+	<meta charset="UTF-8">
+	<title>SG Secondary 1-3 Registration Form</title>
+</head>
+<body>  
+    <h1>แบบลงทะเบียนเรียนวิชาเลือก</h1>
+    <p>ให้นักเรียนกรอกข้อมูลให้ครบทุกช่อง จากนั้นเลือกวิชาเลือกในแต่ละกลุ่มเพียง 1 วิชาต่อกลุ่มเท่านั้น</p>
+<form action="http://www.javatpoint.com/javascriptpages/valid.jsp">  
+<table>  
+<tr>  
+    <td class="tdLabel"><label for="student_name" class="label">ชื่อ-นามสกุล:</label></td>  
+    <td><input type="text" name="name" value="" id="student_name" style="width:160px"/></td>  
+</tr>  
+<tr>  
+    <td class="tdLabel"><label for="student_id" class="label">เลขประจำตัวนักเรียน:</label></td>  
+    <td><input type="text" name="id" id="student_id" style="width:160px"/></td>  
+</tr>  
+<tr>  
+    <td class="tdLabel"><label for="student_secondary" class="label">ระดับชั้นมัธยมศึกษาปีที่:</label></td>  
+    <td>  
+<input type="radio" name="secondary" id="student_secondary1" value="1"/>  
+<label for="student_secondary1">1</label>  
+<input type="radio" name="secondary" id="student_secondary2" value="2"/>  
+<label for="student_secondary2">2</label> 
+<input type="radio" name="secondary" id="student_secondary3" value="3"/>  
+<label for="student_secondary3">3</label> 
+    </td>  
+</tr>  
+<tr>  
+    <td class="tdLabel"><label for="student_room" class="label">ห้อง:</label></td>  
+    <td>  
+<input type="radio" name="room" id="student_room1" value="1"/>  
+<label for="student_room1">1</label>  
+<input type="radio" name="room" id="student_room2" value="2"/>  
+<label for="student_room2">2</label> 
+<input type="radio" name="room" id="student_room3" value="3"/>  
+<label for="student_room3">3</label> 
+<input type="radio" name="room" id="student_room4" value="4"/>  
+<label for="student_room4">4</label> 
+<input type="radio" name="room" id="student_room5" value="5"/>  
+<label for="student_room5">5</label> 
+<input type="radio" name="room" id="student_room6" value="6"/>  
+<label for="student_room6">6</label> 
+<input type="radio" name="room" id="student_room7" value="7"/>  
+<label for="student_room7">7</label> 
+<input type="radio" name="room" id="student_room8" value="8"/>  
+<label for="student_room8">8</label> 
+<input type="radio" name="room" id="student_room9" value="9"/>  
+<label for="student_room9">9</label> 
+    </td>  
+</tr>  
+<tr>  
+    <td class="tdLabel"><label for="student_number" class="label">เลขที่:</label></td>  
+    <td  
+><input type="text" name="number" value="" id="student_number" style="width:160px"/></td>  
+</tr> 
+<tr>  
+    <td class="tdLabel"><label for="register_subjectA" class="label">เลือกวิชากลุ่ม Academic:</label></td>  
+    <td><select name="Academic Subject" id="register_subjectA" style="width:160px">  
+    <option value="วิทยาศาสตร์และเทคโนโลยี">1. วิทยาศาสตร์และเทคโนโลยี</option>  
+    <option value="คณิตศาสตร์">2. คณิตศาสตร์</option>  
+    <option value="ภาษาไทย">3. ภาษาไทย</option>  
+    <option value="ภาษาอังกฤษ">4. ภาษาอังกฤษ</option>  
+    <option value="สังคม ศาสนา และวัฒนธรรม">5. สังคม ศาสนา และวัฒนธรรม</option>  
+    <option value="ศิลปะ ดนตรี">6. ศิลปะ ดนตรี</option>
+    <option value="สุขศึกษาและพลศึกษา">7. สุขศึกษาและพลศึกษา</option> 
+    <option value="การงานอาชีพ">8. การงานอาชีพ</option>
+</select>  
+</td>  
+</tr>  
+<tr>  
+    <td class="tdLabel"><label for="register_subjectC" class="label">เลือกวิชากลุ่ม Career:</label></td>  
+    <td><select name="Career Subject" id="register_subjectC" style="width:160px">  
+    <option value="นักลงทุน">1. นักลงทุน</option>  
+    <option value="Body Balance">2. Body Balance</option>  
+    <option value="การเก็บตัวอย่างพืชและสัตว์">3. การเก็บตัวอย่างพืชและสัตว์</option>  
+    <option value="นักสัตววิทยา">4. นักสัตววิทยา</option>  
+    <option value="นักวิทยาศาสตร์รุ่นใหม่">5. นักวิทยาศาสตร์รุ่นใหม่</option> 
+    <option value="การขายบน Platform online ในเทรนด์โลกปัจจุบัน">6. การขายบน Platform online ในเทรนด์โลกปัจจุบัน</option> 
+    <option value="Content Creator (การสร้าง Content สินค้า)">7. Content Creator (การสร้าง Content สินค้า)</option>
+    <option value="Super Model">8. Super Model</option>  
+    <option value="Trainer (นักโภชนาการและการออกกำลังกาย)">9. Trainer (นักโภชนาการและการออกกำลังกาย)</option> 
+    <option value="A Little Bartender">10. A Little Bartender</option> 
+    <option value="Mocktail">11. Mocktail</option>  
+    <option value="Home Decoration">12. Home Decoration</option> 
+    <option value="Photography">13. Photography</option> 
+    <option value="Barista">14. Barista</option> 
+    <option value="Songwriter">15. Songwriter</option>
+    <option value="Creator">16. Creator</option>  
+    <option value="Strategy of Life (ศิลปะการจัดการตัวเอง)">17. Strategy of Life (ศิลปะการจัดการตัวเอง)</option>
+    <option value="การทำเครื่องดื่มสมุนไพรไทย">18. การทำเครื่องดื่มสมุนไพรไทย</option>  
+    <option value="Excel ขั้นเทพ">19. Excel ขั้นเทพ</option>  
+    <option value="การทำโครงงานเทคโนโลยี">20. การทำโครงงานเทคโนโลยี</option>  
+    <option value="Powerful PowerPoint">21. Powerful PowerPoint</option>  
+    <option value="Online Marketing">22. Online Marketing</option>  
+    <option value="Robotics">23. Robotics</option>  
+    <option value="Concentration on Board">24. Concentration on Board</option>  
+</select>  
+</td>  
+</tr>  
+<tr>  
+    <td class="tdLabel"><label for="register_subjectE" class="label">เลือกวิชากลุ่ม Expertise:</label></td>  
+    <td><select name="Expertise Subject" id="register_subjectE" style="width:160px">  
+    <option value="หุ้นและการลงทุน">1. หุ้นและการลงทุน</option>  
+    <option value="การสร้างภาพโดยใช้โปรแกรม GSP">2. การสร้างภาพโดยใช้โปรแกรม GSP</option>  
+    <option value="สมาธิเพื่อการพัฒนา">3. สมาธิเพื่อการพัฒนา</option>  
+    <option value="Dance for Health">4. Dance for Health</option>  
+    <option value="การออมทรัพย์">5. การออมทรัพย์</option>  
+    <option value="Dr.KIDS">6. Dr.KIDS</option>  
+    <option value="คิดอย่างวิศวกรและนักวิทยาศาสตร์">7. คิดอย่างวิศวกรและนักวิทยาศาสตร์</option>  
+    <option value="Science Investigators">8. Science Investigators</option>  
+    <option value="한국 NEXT LEVEL">9. 한국 NEXT LEVEL</option>  
+    <option value="ภาษาไทยเพื่อการสื่อสาร"10. >ภาษาไทยเพื่อการสื่อสาร</option>  
+    <option value="Public speaking">11. Public speaking</option>  
+    <option value="ภาษาเพื่อการท่องเที่ยว">12. ภาษาเพื่อการท่องเที่ยว</option>  
+    <option value="การพูดเพื่อการสื่อสารและประกอบอาชีพ">13. การพูดเพื่อการสื่อสารและประกอบอาชีพ</option>  
+    <option value="การเขียนเพื่อการสื่อสาร">14. การเขียนเพื่อการสื่อสาร</option>  
+    <option value="Games Creators">15. Games Creators</option>  
+    <option value="ภาษาจีนเพื่อการสื่อสาร">16. ภาษาจีนเพื่อการสื่อสาร</option>  
+    <option value="Spanish for Daily Life">17. Spanish for Daily Life</option>  
+    <option value="French for Daily Life">18. French for Daily Life</option>  
+    <option value="German for Daily Life">19. German for Daily Life</option>  
+    <option value="Japanese for Daily Life">20. Japanese for Daily Life</option>  
+    <option value="Morality in Entertainment">21. Morality in Entertainment</option>  
+    <option value="Translation path">22. Translation path</option>  
+    <option value="English for Travelling and Intercultural Communication">23. English for Travelling and Intercultural Communication</option>  
+    <option value="English for Hotel Business">24. English for Hotel Business</option>  
+    <option value="Digital Art">25. Digital Art</option>  
+    <option value="Creative Art">26. Creative Art</option>  
+    <option value="Contemporary Event (เหตุการณ์ร่วมสมัย)">27. Contemporary Event (เหตุการณ์ร่วมสมัย)</option>  
+    <option value="Inside Tourism (เป็นมากกว่านักท่องเที่ยว)">28. Inside Tourism (เป็นมากกว่านักท่องเที่ยว)</option>  
+    <option value="ขบวนการการเคลื่อนไหวทางสังคม (Social Movements)">29. ขบวนการการเคลื่อนไหวทางสังคม (Social Movements)</option>  
+    <option value="Learning World History Through Movies">30. Learning World History Through Movies</option>  
+    <option value="คุณค่าของศาสนสัมพันธ์">30. คุณค่าของศาสนสัมพันธ์</option>  
+    <option value="ผู้ฝึกสอนฟุตบอล">31. ผู้ฝึกสอนฟุตบอล</option>  
+    <option value="ทักษะการยืดหยุ่นเบื้องต้น">32. ทักษะการยืดหยุ่นเบื้องต้น</option>  
+    <option value="ทักษะกีฬาบาสเกตบอล">33. ทักษะกีฬาบาสเกตบอล</option>  
+    <option value="ทักษะกีฬาแบดมินตัน">34. ทักษะกีฬาแบดมินตัน</option>  
+    <option value="การเป็นผู้นำเกมและนันทนาการ">35. การเป็นผู้นำเกมและนันทนาการ</option>  
+    <option value="วิชาโครงงานอิเล็กทรอนิกส์">36. วิชาโครงงานอิเล็กทรอนิกส์</option>  
+    <option value="ทักษะงานช่างในชีวิตประจำวัน">37. ทักษะงานช่างในชีวิตประจำวัน</option>  
+</select>  
+</td>  
+</tr>  
+<tr>  
+    <td colspan="2"><div align="right"><input type="submit" id="register_0" value="register"/>  
+</div></td>  
+</tr>  
+</table>  
+</form>  
+</body>
+</html>  
